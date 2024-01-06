@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  dwk-log-output:
+    image: denyilmaz/dwk-log-output:latest
+    ports:
+      - "6000:6000"
